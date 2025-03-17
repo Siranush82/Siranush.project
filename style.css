@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+   }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250vh;
+    margin: 0;
+    background-color: #9c468a;
+    flex-direction: column;
+}
+header {
+    text-align: center;
+    margin: auto;
+    width: 500px;
+}
+
+  img {
+ margin:  auto;  
+ display: block;
+ 
+}
+main {
+    padding: 30px;
+    margin:  auto;
+    height: 500px;
+    width: 600px;
+    border: 8px solid rgb(126, 99, 99);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 45px;
+}
+h2,h3,h4,h5 {
+font-size: 20px;
+text-align: center; 
+color: rgba(61, 31, 31, 0.7);
+}
+p {
+    font-size: 20px;
+    text-align: start;
+}
+span {
+    color: rgb(243, 225, 225);
+
+}
+a {color: rgb(172, 19, 19);}
+a:hover {color: rgb(28, 30, 114);}
+a:active {color: rgb(28, 114, 28);}
+div ul {
+    list-style-type: none;
+}
+
+    footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: yellow;
+}
+
+.container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+
+    animation: moveInCircle 5s infinite linear, changeColor 5s infinite;
+}
+
+.box1 {
+    background-color: #3498db;
+    top: -150%;
+    left: -150%;
+    transform: translateX(-50%);
+}
+
+.box2 {
+    background-color: #e74c3c;
+    top: -50%;
+    left: -150%;
+    transform: translateY(-50%) translateX(-100%);
+}
+
+.box3 {
+    background-color: #f1c40f;
+    top: -100%;
+    left: -150%;
+    transform: translateY(-100%) translateX(-50%);
+}
+
+.box4 {
+    background-color: #2ecc71;
+    top: -200%;
+    left: -150%;
+    transform: translateY(-50%);
+}
+
+@keyframes moveInCircle {
+    0% {
+        transform: translateX(-50%) translateY(0) rotate(0deg);
+    }
+    25% {
+        transform: translateX(50%) translateY(-50%) rotate(90deg);
+    }
+    50% {
+        transform: translateX(-50%) translateY(-100%) rotate(180deg);
+    }
+    75% {
+        transform: translateX(-150%) translateY(-50%) rotate(270deg);
+    }
+    100% {
+        transform: translateX(-50%) translateY(0) rotate(360deg);
+    }
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: #3498db;
+    }
+    25% {
+        background-color: #e74c3c;
+    }
+    50% {
+        background-color: #f1c40f;
+    }
+    75% {
+        background-color: #2ecc71;
+    }
+    100% {
+        background-color: #3498db;
+    }
+   
+}
+
+    section {
+        display: grid;
+        place-items: center;
+        background-color: grey;
+        width: 300px;
+        height: 250px;
+        border: 1px solid #0e5537;
+        transition: 1s;
+        margin-left: 600px;
+        margin-top: -600px;
+    
+    }
+    main section:hover {
+         transform: rotateY(45deg);
+         rotate: y 45deg;
+      }
+
