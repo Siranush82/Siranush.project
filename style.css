@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 300vh;
-    margin: 10px;
+    margin: 0;
     background-color: #ec90ec;
     flex-direction: column;
 }
@@ -22,15 +22,20 @@ header {
  display: block;
  
 }
+.nav {
+    margin-top: 50px;
+}
+
 main {
-    padding: 30px;
-    margin:  auto;
+    padding: 16px;
+    margin: auto;
+    margin-top: 40px;
     height: 500px;
     width: 600px;
     border: 8px solid rgb(126, 99, 99);
     border-radius: 10px;
 }
-
+ 
 h1 {
     font-size: 45px;
 }
@@ -46,6 +51,7 @@ p {
 .nkar p {
     text-align: justify;
     width: 400px;
+
 } 
 span {
     color: rgb(243, 225, 225);
@@ -57,7 +63,6 @@ a:hover {color: rgb(28, 30, 114);}
 a:active {color: rgb(28, 114, 28);}
 div ul {
     list-style-type: none;
-    
 }
 
     footer {
