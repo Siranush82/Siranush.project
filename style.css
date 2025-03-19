@@ -1,13 +1,13 @@
-* {
+* { 
     box-sizing: border-box;
    }
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250vh;
+    height: 300vh;
     margin: 0;
-    background-color: #9c468a;
+    background-color: #ec90ec;
     flex-direction: column;
 }
 header {
@@ -42,8 +42,13 @@ p {
     font-size: 20px;
     text-align: start;
 }
+.nkar p {
+    text-align: justify;
+    width: 400px;
+} 
 span {
     color: rgb(243, 225, 225);
+
 
 }
 a {color: rgb(172, 19, 19);}
@@ -51,6 +56,7 @@ a:hover {color: rgb(28, 30, 114);}
 a:active {color: rgb(28, 114, 28);}
 div ul {
     list-style-type: none;
+    
 }
 
     footer {
