@@ -1,14 +1,13 @@
 * { 
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
    }
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 300vh;
-    margin: 0;
+    margin: 10px;
     background-color: #ec90ec;
     flex-direction: column;
 }
